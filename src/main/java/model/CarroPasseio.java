@@ -8,7 +8,7 @@ public class CarroPasseio extends Veiculo {
     private String modelo;
 
     public CarroPasseio() {
-        this("","",0,0,0);
+        this("", "", 0, 0, 0);
     }
 
     public CarroPasseio(String cor, String modelo, int peso, int velocMax, float preco) {

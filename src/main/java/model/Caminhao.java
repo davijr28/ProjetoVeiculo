@@ -8,8 +8,8 @@ public class Caminhao extends Veiculo {
     private int alturaMax;
     private int comprimento;
 
-    public Caminhao(){
-        this(0,0,0,0,0,0);
+    public Caminhao() {
+        this(0, 0, 0, 0, 0, 0);
     }
 
     public Caminhao(int toneladas, int alturaMax, int comprimento, int peso, int velocMax, float preco) {
@@ -56,6 +56,6 @@ public class Caminhao extends Veiculo {
 
     public void imprimir() {
         super.imprimir();
-        System.out.println("Carga máxima: "+getToneladas()+" t\nAltura máxima: "+getAlturaMax()+" m\nComprimento: "+getComprimento()+ " m");
+        System.out.println("Carga máxima: " + getToneladas() + " t\nAltura máxima: " + getAlturaMax() + " m\nComprimento: " + getComprimento() + " m");
     }
 }
